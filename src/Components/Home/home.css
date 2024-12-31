@@ -1,0 +1,114 @@
+#section-home{
+    height:calc(100vh - 4rem);
+    width:100vw;
+    max-width:75rem;
+    margin:0 auto;
+    overflow:hidden;
+    position: relative;
+
+}
+
+.profile-image{
+
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 100vh;
+   
+    
+}
+
+.introContent{
+    height:100vh;
+    width:100vw;
+    padding: 2rem;
+    font-size:3rem;
+  font-weight: 700;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.introName{
+    color: darkorange;
+   
+}
+
+.role {
+    font-size: 2rem; /* Adjust font size */
+    display: inline-block;
+    height: 2.2rem; /* Adjust height in rem (scales with root font size) */
+    line-height: 1.5rem; /* Align text vertically */
+    /* width: 12rem; Adjust width accordingly (you can use rem here too) */
+    overflow: hidden;
+    text-align: left;
+}
+
+.introPara{
+    font-size: medium;
+    font-weight: 400;
+    letter-spacing:1px;
+}
+.hireBtn{
+cursor: pointer; 
+   color: #000;
+   background:white ;
+    margin:1rem 0;
+    padding:0.75rem 2rem;
+    border: none;
+    border-radius:2rem;
+    font-size:medium;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    transition: background-color 0.3s ease; 
+   
+}
+.hireBtn:hover {
+    background-color:darkorange; 
+  }
+
+.hire-icon{
+    object-fit: cover;
+    margin-right:.5rem;
+    flex-shrink: 0; 
+    height: 1rem;
+   
+}
+@media screen and (max-width: 840px) {
+
+    .profile-image{
+        right:-10vw;
+    }
+
+    .introContent {
+        font-size: 8vw; 
+    }
+
+    .hello{
+        font-size: 4.5rem;
+    }
+   
+
+}
+@media screen and (max-width: 480px) {
+
+    .profile-image{
+        right:-4vw;
+    }
+    .introPara{
+        /* color:black; */
+    }
+   
+}
+
+
+

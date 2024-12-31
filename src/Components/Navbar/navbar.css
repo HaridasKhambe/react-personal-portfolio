@@ -1,0 +1,115 @@
+.navbar{
+    height:5rem;
+    width:100vw;
+    /* max-width: 80rem; */
+    margin:0 auto;
+    padding:1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:fixed;
+    top:0;
+    z-index:1000;
+    background:rgba(15, 15, 15,.8);
+}
+.navbar-brand {
+    color:darkorange;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    margin-left:10rem;
+    font-size: 2rem;
+    line-height: inherit;
+    white-space: nowrap; 
+}
+.desktopMenu{
+   /* margin-right:10rem; */
+}
+.listItem{
+margin:1rem;
+/* color: darkorange; */
+cursor: pointer;
+text-decoration: none;
+
+}
+
+.listItem:hover{
+    color: darkorange;
+    padding-bottom:0.5rem;
+    border-bottom:3px solid darkorange;
+    text-decoration: none;
+
+}
+.navbar-brand:hover, .navbar-brand:focus {
+      text-decoration: none;
+}
+
+.active{
+    color: darkorange;
+    padding-bottom:.5rem;
+    border-bottom:3px solid darkorange;
+}
+
+ /* burger menu */
+
+ .mobMenu{
+  
+    cursor: pointer;
+    display: none;
+    object-fit: cover;
+    height:2rem;
+
+
+    
+ }
+ .menu-icon{
+    color: darkorange;
+    object-fit: cover;
+    height:2rem;
+    font-size: 4rem;
+   
+ }
+
+ .navMenu{
+    position: absolute;
+    top:4rem;
+    right:2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding:.8rem;
+    height: fit-content;
+    min-width: 15rem;
+    background:rgb(40, 40, 40);
+    border-radius: 2rem 0 2rem 0;
+ }
+
+ .moblistItem{
+    color: white;
+    padding:0.5rem 3rem;
+    margin:0.25rem;
+    background: rgb(30, 30, 30);
+ 
+
+ }
+
+@media screen and (max-width:720px) {
+    .mobMenu{
+        display: flex;
+    }
+
+    .navbar-brand{
+        margin-left:1rem;
+    }
+
+    .desktopMenu{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .navbar-brand{
+        margin-left:1rem;
+    }
+}
