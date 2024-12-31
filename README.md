@@ -37,8 +37,9 @@ This project is built using the following technologies:
 - **React**: JavaScript library for building user interfaces, handling components, and managing state.
 - **Tailwind CSS**: A utility-first CSS framework used for creating custom, responsive designs with minimal effort.
 
-## Contact 
-     [LinkedIn]( LinkedIn: https://www.linkedin.com/in/haridas-khambe-aa650926b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+## Contact
+[LinkedIn](https://www.linkedin.com/in/haridas-khambe-aa650926b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
 
 ## Conclusion 
 
