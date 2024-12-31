@@ -3,6 +3,8 @@
 
 This is a personal portfolio website built with React, showcasing my skills, experience, and projects as a web developer. The website is designed to be modern, responsive, and user-friendly, providing visitors with a seamless experience. It highlights my technical expertise and serves as an online resume.
 
+[Click here to View Webiste or My Portfolio](https://haridaskhambe.github.io/react-personal-portfolio/)
+
 ## Features
 
 The portfolio website includes the following sections:
@@ -36,7 +38,7 @@ This project is built using the following technologies:
 - **Tailwind CSS**: A utility-first CSS framework used for creating custom, responsive designs with minimal effort.
 
 ## Contact 
-     - LinkedIn: https://www.linkedin.com/in/haridas-khambe-aa650926b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+     [LinkedIn]( LinkedIn: https://www.linkedin.com/in/haridas-khambe-aa650926b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ## Conclusion 
 
