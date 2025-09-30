@@ -33,7 +33,7 @@ const About = () => {
 
             <h6 className='mb-2 text-medium text-neutral-400'><span className='text-neutral-300'>Role:</span> Computer Engineering Student</h6>
             <h6 className='mb-2 text-medium  text-neutral-400'><span className='text-neutral-300'>Experience:</span> Web and Programming</h6>
-            <h6 className='mb-2 text-medium  text-neutral-400'><span className='text-neutral-300'>Address:</span>  Pune, India</h6>
+            <h6 className='mb-2 text-medium  text-neutral-400'><span className='text-neutral-300'>Address:</span> Pune, Maharashtra, India</h6>
             </div>
 
             <motion.div 
@@ -86,7 +86,7 @@ const About = () => {
     className="space-y-3">
       <li className="flex">
         <span className="font-semibold w-32">Profile:</span>
-        <span className='text-neutral-400'>Computer Engineering Student</span>
+        <span className='text-neutral-400'>Computer Science Engineering Student</span>
       </li>
       <li className="flex flex-wrap">
         <span className="font-semibold w-28">Education:</span>
@@ -101,11 +101,11 @@ const About = () => {
       </li>
       <li className="flex">
         <span className="font-semibold w-32">Other Skills:</span>
-        <span className='text-neutral-400' >Cloud, Excel, Git</span>
+        <span className='text-neutral-400' >Networking, Hardware Troubleshooting</span>
       </li>
       <li className="flex">
         <span className="font-semibold w-32">Interests:</span>
-        <span className='text-neutral-400' >Coding, Photography, Piano</span>
+        <span className='text-neutral-400' >Coding challenges, hotography, Playing Piano</span>
       </li>
     </motion.ul>
   </motion.div> {/* Closing div for Right side */}

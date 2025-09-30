@@ -17,7 +17,7 @@ const container = (delay) =>({
 
 const TypingAnimation = React.memo(() => (
   <ReactTyped
-    strings={["Engineer", "Fullstack Developer", "Programmer"]}
+    strings={["Engineer", "Fullstack Developer", "Java Programmer", "AI Enthusiast"]}
     typeSpeed={100}
     backSpeed={20}
     loop

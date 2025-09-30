@@ -1,67 +1,97 @@
+import virtualAsistant from "../assets/projects/Virtual-Assistant-at-home.webp";
 import project1 from "../assets/projects/portfolio.png";
 import project2 from "../assets/projects/gp.png";
 import project3 from "../assets/projects/feedback.png";
 import project4 from "../assets/projects/attendace.png";
-import project5 from "../assets/projects/ATS-admin.png";
+import ATS from "../assets/projects/admin_manage_alumni.png";
 
 
-export const HERO_CONTENT = `Passionate and driven, I’m a computer engineering student eager to explore new technologies. I am dedicated to leveraging my skills in web development, programming, and database management to create innovative solutions.`;
+export const HERO_CONTENT = `Passionate and driven final-year Computer Engineering student | Exploring new technologies | Skilled in Full-stack development, Java Programming, and database management | Dedicated to creating innovative solutions`;
 
-export const ABOUT_TEXT = `I am a computer engineering student with a solid foundation built from a 3-year diploma and currently pursuing my BTech degree.
- With hands-on experience in web development, C++, Python, and database management, I thrive in developing solutions that tackle real-world problems. 
-My interest in computer network security further fuels my commitment to improving technology and society.`;
+export const ABOUT_TEXT = `I am a Computer Science Engineering student with a strong academic foundation (Diploma 89.83%, B.Tech CGPA 9.7) and hands-on experience in full-stack web development, Java, and database management.
+
+I enjoy solving problems and building practical solutions, contributing value through clean and efficient code. My passion lies in creating impactful systems while continuously learning, adapting to new technologies, and using them to help society.`;
 
 export const SKILLS = [
 
   {
-    skill: "WEB DEVELOPMENT - FULLSTACK, APIS ",
-    progress: "75"
+    skill: "Programming & DSA - Java ",
+    progress: "80"
 
   },
   {
-    skill: "PROGRAMMING - C++, PYTHON ",
-    progress: "70"
+    skill: "Web Development - HTML, CSS, Tailwind CSS, JavaScript, React (Basic)",
+    progress: "75"
     
   },
   {
-    skill: "DATABASE - MYSQL, MONGODB ",
+    skill: "DATABASE - MYSQL, MONGODB (Basic) ",
+    progress: "75"
+    
+  },
+   {
+    skill: "Cloud & Security - AWS Cloud Foundations (Certified), Cyber Security Fundamentals ",
+    progress: "65"
+    
+  },
+  {
+    skill: " Tools & Platforms -  Git, GitHub, Linux (Bash), VSCode, Eclipse, Postman ",
     progress: "80"
     
   },
   {
-    skill: "SECURITY - ETHICAL HACKING ",
-    progress: "50"
+    skill: "Frameworks & Technologies -  Spring Boot (Learning), REST API Development (Basic) ",
+    progress: "45"
     
   },
   {
-    skill: "HARDWARE ",
-    progress: "65"
+    skill: "Core CS Fundamentals -  Object-Oriented Programming (OOP), Computer Networks (CN) Operating Systems (OS)",
+    progress: "80"
     
-  }
+  },
 
 
 ];
 
 export const EXPERIENCES = [
   {
-    year: "NOV 2024",
-role: "Team Member",
-competition: "Smart India Hackathon (SIH) 2024",
-project: "AI-Powered Centralized Chatbot for Admission Queries",
-description: `Developed a virtual assistant to address admission-related challenges faced by educational institutes, reducing their workload. The chatbot features multi-modal interaction, multi-language support, real-time notifications, and a recommendation system. It also adapts to new queries through data scraping and provides actionable insights for institutional improvements.`,
-technologies: ["AI", "ML", "NLP"],
+    year: "Aug 2024 - Present ",
+    role: "Department Student Coordinator",
+    company: "Indian Society for Technical Education (ISTE), JSPM RSCOE",
+    description: `Led workshops, seminars, and a technical quiz competition, fostering peer learning and collaboration. Strengthened leadership, event management, and communication skills while coordinating student initiatives.`,
+    technologies: ["Leadership", "Event Management", "Collaboration"],
   },
+
   {
     year: "Jul 2022 - Aug 2022",
-    role: "Computer Hardware Intern",
+    role: " IT Assistant Trainee ",
     company: "Google Computers Dapoli",
-    description: `Completed a 1.5-month internship focused on computer hardware troubleshooting and assembly. Enhanced communication skills by assisting real customers and attending external calls. Gained hands-on experience in resolving hardware issues and assembling new PCs as part of the college curriculum.`,
-    technologies:["Computer Hardware", "Troubleshooting", "Customer Interaction"],
-  },
+    description: `Completed a 1.5-month internship focused on assembling and troubleshooting PCs, diagnosing hardware/software issues, and configuring LAN setups. Interacted with customers regularly, leveraging strong communication skills to assess technical problems, provide solutions, and deliver on-site support.`,
+    technologies:["Computer Hardware", "Troubleshooting", "Networking", "Customer Interaction", "Communication Skills"],
+  }
   
 ];
 
 export const PROJECTS = [
+
+  {
+    title: "AI-Enabled Voice Assistant for Elderly People",
+    image: virtualAsistant, // replace with your actual image import
+    description: `Designed and developed a smart voice assistant to enhance elderly mental well-being, achieving a 20% increase in user engagement through sentiment analysis. Prepared a 51K-sample Hindi dialogue dataset labeled with 5 emotions (Anger, Joy, Suspense, Neutral) for domain-specific training. Enhanced BiLSTM + Attention and fine-tuned IndicBERT to reach 84.73% accuracy in sarcasm and emotion detection. Published in Fifth Congress on Intelligent Systems (CIS 2024), Springer.`,
+    technologies: ["Python", "Deep Learning", "Sentiment Analysis", "IndicBERT", "BiLSTM"],
+    link: "https://link.springer.com/chapter/10.1007/978-981-96-2694-6_15", // replace with actual link if available
+  },
+
+  {
+    title: "AlumPulse: Alumni Tracking System",
+    image: ATS, // replace with your actual image import
+    description: ` Built a responsive alumni management platform using MVC-style architecture and REST-like JSON endpoints, enabling advanced
+ search filters and user-friendly interface.  Implemented a secure role-based access control (RBAC) system for Alumni, College Admins, and Directorate users, supporting
+ registration, verification, and advanced search to enhance alumni engagement.  Designed and optimized a MySQL database for large-scale alumni management `,
+    technologies: ["HTML", "CSS", "JavaScript", "MySQL", "RBAC"],
+    link: "https://github.com/HaridasKhambe/Alumni-Tracking-System-Pro", // replace with actual link if available
+  },
+
   {
     title: "Portfolio Website",
     image: project1,
@@ -87,14 +117,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL", "Google Charts"],
     link: "https://github.com/HaridasKhambe/Real-Time-Event-Feedback-Analysis-System",
   },
-  {
-    title: "Alumni Tracking System",
-    image: project5, // Replace with the appropriate image variable or URL
-    description:
-      "An Alumni Tracking System developed during the 'Avinya Hackathon 2024,' winning the 'BEST PERFORMER' award. It includes two portals: one for Alumni to register and manage profiles, and another for Admins to verify alumni, search details, and connect via messages or emails.",
-    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "PHP", "MySQL"],
-    link: "#",
-  },
+  
   
   {
     title: "Fingerprint Sensor Based Biometric Attendance Management System",
