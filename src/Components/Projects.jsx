@@ -22,7 +22,7 @@ const Projects = () => {
                 <a href={project.link} target="_blank"
                 rel="noopener noreferrer"
                 className="hover:scale-110 transition-transform">
-                  <img src={project.image} width={250} height={250} alt={project.title} className="mb-6 rounded border" /></a>
+                  <img src={project.image} width={350} height={350} alt={project.title} className="mb-6 rounded border" /></a>
                 </motion.div>
 
                 <motion.div
