@@ -1,5 +1,6 @@
 import OMDB from "../assets/projects/OMDB.png";
 import coAcitify from "../assets/projects/coAcitify.png";
+import taskflowX from "../assets/projects/taskflowX.jpg";
 
 import virtualAsistant from "../assets/projects/Virtual-Assistant-at-home.webp";
 import project1 from "../assets/projects/portfolio.png";
@@ -77,6 +78,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "TaskFlowX: Internal Task & Approval Management System",
+    image: taskflowX, 
+    description: `Built an enterprise-grade backend workflow system enforcing task lifecycle transitions, approvals, andrejections through backend-driven state validation, beyond basic CRUD operations. Implemented JWT-based authentication with role-based access control (RBAC) and centralized auditlogging, ensuring traceability and accountability across Admin, Manager, and Employee roles.  Improved backend performance using asynchronous processing for audit trails and in-memory caching for taskqueries, reducing API response time by ∼30% during testing.`,
+    technologies: [ "JAVA", "Spring Boot", "Spring MVC", "RESTful APIs,", "JPA/Hibernate", "MySQL", "Caffeine Cache", "Async Processing", "JWT+RBAC",],
+    link: "https://github.com/HaridasKhambe/Internal-Task-n-Approval-Management-System", 
+  },
 
   {
     title: "CoActify Portal: Student Activity & Institutional Monitoring System",

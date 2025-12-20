@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './home.css'
-import harry from '../../assets/harry2-image.png'
+import harry from '../../assets/haridas_removebg_adobe.png'
+// import harry from '../../assets/harry2-image.png'
 import { Link } from 'react-scroll'
 import { MdGroupAdd } from "react-icons/md";
 
@@ -69,7 +70,7 @@ const Home = () => {
 
                 <motion.img 
                 initial={{x:100, opacity:0}}
-                animate={{x:0, opacity:1}}
+                animate={{x:0, opacity:1, scale: 0.8}}
                 transition={{duration:1, delay:1.2}}
                 src={harry} alt='profile image' className='profile-image'/>
             </div>
